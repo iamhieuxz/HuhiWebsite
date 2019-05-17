@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register |Huhi </title>
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="shortcut icon" href="./img/fav2.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  </head>
+  <body>
+      <div class="nav-bar">
+          <div class="heading brand-logo">
+              <img src="./img/fav2.ico" class="logo">
+          </div>
+          <div class="heading">
+              <a href="index.html" class="logo-link"> <h2 class="txt-logo">HU<SPAN class="hieu">HI</SPAN></h2></a>
+          </div>
+          <div class="heading">
+              <div class="search-box">
+                <input type="text" class="search-txt" placeholder="Type to search">
+                <a class="search-btn" href="#"><i class="fas fa-search"></i></a>
+              </div> 
+           </div>
+      </div> <!--end of nav-->
+
+    <div class="register-box">
+      <form action="" id="form-register" name="myForm">
+          <h1>register</h1>
+            <div class="textbox">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" name="username" id="username">
+            </div>
+            <div class="textbox">
+              <i class="fas fa-file-signature"></i>
+              <input type="text" placeholder="Full Name" name="fullname" id="fullname">
+            </div>
+            <div class="textbox">
+              <i class="fas fa-map-marker-alt"></i>
+              <input type="text" placeholder="Address" name="address" id="Address">
+            </div>
+            <div class="textbox">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" name="password" id="password">
+            </div>
+            
+            <div class="textbox">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Re-Password" name="repass" id="re-password">
+            </div>
+            <div class="button">
+                  <button type="submit" onclick="registerForm()" class="btn" value="Sign in"> Sign in</button>
+                  <button type="reset" class="btn" value="Reset">Reset</button>
+           </div>
+          </form>
+          <a href="./login.html" class="text">I have a account !</a>
+        </div>
+  <script src="./js/register.js"></script>
+
+  </body>
+</html>
