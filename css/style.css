@@ -56,6 +56,28 @@ body {
     transform: scale(1, .25);
     animation: bounceshadow .075 infinite linear;
 } */
+/*Overlay*/
+
+.overlay-bg {
+    z-index: 3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top : 0;
+    background : #fff;
+}
+
+.overlay-bg h1 {
+    color : #00e676;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing : 10px;
+    position : absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 /* Nav */
 nav {
@@ -71,11 +93,11 @@ nav.black {
     background: rgba(0, 0, 0, .5);
     color: white;
     height: 10vh;
-    z-index: 1;
+    z-index: 2;
 }
 .brand-logo{
     display: flex;
-    animation: showdown 2s forwards 0s ease-in;
+    cursor: pointer;
 }
 .brand-logo h4 {
     color : white;
@@ -92,7 +114,6 @@ nav.black {
     display: flex;
     justify-content:space-around;
     width: 30%;
-    animation: showdown 1.5s forwards 1s ease-in;
 
 }
 .nav-link .active {
@@ -133,13 +154,11 @@ img {
     font-size: 3rem;
     margin-bottom : 0;
     text-transform: uppercase;
-    animation: showdown 1.5s forwards 2s ease-in;
 }
 .p-txt {
     font-size: 1rem;
     margin-top : 2vh;
     text-transform: uppercase;
-    animation: showdown 1.5s forwards 2.5s ease-in;
 }
 .alo2 {
     width: 70%;
@@ -176,7 +195,6 @@ img {
     position: absolute;
     top : 55%;
     left: 45%;
-    animation: showdown 1.5s forwards 3s ease-in;
 }
 button {
     display: block;
@@ -235,7 +253,6 @@ button {
     top : 90%;
     left : 48%;
     letter-spacing: 6px;
-    animation: showdown 1.5s forwards 4s ease-in;
 }
 
 

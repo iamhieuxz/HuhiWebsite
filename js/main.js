@@ -1,5 +1,15 @@
 // loader 
 
+TweenMax.to('.overlay-bg h1',2 , {
+    opacity : 0,
+    y : -60,
+    ease : Expo.easeInOut
+})
+TweenMax.to('.overlay-bg',2 , {
+    delay : 1,
+    top : "-100%",
+    ease : Expo.easeInOut
+})
 
 
 
